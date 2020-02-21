@@ -1,0 +1,454 @@
+﻿@charset "utf-8";
+
+body {
+	margin: 0px;
+font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+background-color:lavender;
+
+}
+.container {
+	margin: 0 auto;
+	padding: 0 16px;
+	max-width: 1000px;
+}
+#haikei{
+width:80%;
+margin:auto;
+height:100%;
+background-color:#FFFFFF;
+padding:10px; 5px;
+}
+#haikei1{
+width:80%;
+margin:auto;
+height:100%;
+background-color:#FFFFFF;
+padding:10px; 5px;
+}
+
+/* 
+各パートにパディング、背景、テキスト色などを指定する
+<div class="container">の子要素に指定する
+*/
+/* ヘッダー
+---------------------------------------------------- */
+.header-inner {
+padding: 0;
+}
+.headA {
+float:left;
+}
+
+/*-----------index.html--------------------------------------*/
+.headB{
+ position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 56vh;
+background-image: url(images/photo-istanbul-red-streetcar.jpg);
+background-position: left;
+background-size: cover;
+ top:0px;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table tr{
+  border-bottom: solid 2px white;
+}
+
+table tr:last-child{
+  border-bottom: none;
+}
+
+table th{
+  position: relative;
+  text-align: left;
+  width: 30%;
+  background-color: #AAABD3;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+table th:after{
+  display: block;
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top:calc(50% - 10px);
+  right:-10px;
+  border-left: 10px solid #AAABD3;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+table td{
+  text-align: left;
+  width: 70%;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 0;
+}
+
+.part {
+    float:left;
+    position: relative;
+    margin: 2em 0 ;
+    margin-left: 15px;
+    padding: 0.5em 1em;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+    width:90%;
+    height: 200px;
+}
+.part .box-title1 {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.part p {
+    margin: 0; 
+    padding: 0;
+}
+.sutoresu {
+    float:left;
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    margin-left: 15px;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+    width:90%;
+     height: 200px;
+}
+.sutoresu .box-title3 {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.sutoresu p {
+    margin: 0; 
+    padding: 0;
+}
+
+.jiku {
+    float:left;
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    margin-left: 15px;
+    border: solid 3px #95ccff;
+    border-radius: 8px;
+    width:90%;
+    height: 250px;
+}
+.jiku .box-title4 {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #95ccff;
+    font-weight: bold;
+}
+.jiku p {
+    margin: 0; 
+    padding: 0;
+}
+
+@media only screen and (min-width: 758px){
+.headB h1{
+font-size: 76px;
+}
+}
+/*-----------------------------------------------------------------*-
+/*-------------------------intrdoce.html---------------------------*/
+
+.headC{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 56vh;
+background-position: left;
+background-size: cover;
+ top:0px;
+
+}
+@media only screen and (min-width: 758px){
+.headc h1{
+font-size: 76px;
+}
+}
+/*--------------------------------------------------------------------*/
+/*-------------------------hello.html---------------------------
+.headD{
+ position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 56vh;
+background-position: left;
+background-size: cover;
+ top:0px;
+
+}
+@media only screen and (min-width: 758px){
+.headc h1{
+font-size: 76px;
+}
+}
+--------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+
+.header-inner {
+	padding:0;
+}
+header h1{
+background:url(images/logo/poltfolio.PNG) no-repeat center;
+padding:30px 65px;
+margin-left:20px;
+}
+
+
+header h3{
+background:url(images/logo/poltfolio.PNG) no-repeat center;
+padding:30px 65px;
+margin-left:20px;
+}
+header h5{
+background:url(images/logo/poltfolio.PNG) no-repeat center;
+padding:30px 65px;
+margin-left:20px;
+}
+header h6{
+background:url(images/logo/poltfolio.PNG) no-repeat center;
+padding:30px 65px;
+margin-left:20px;
+}
+
+#main{
+padding:60px;
+}
+
+.modal_wrap input{
+    display: none;
+}
+
+.modal_overlay{
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    opacity: 0;
+    transition: opacity 0.5s, transform 0s 0.5s;
+    transform: scale(0);
+}
+
+.modal_trigger{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.modal_content{
+    align-self: center;
+    width: 60%;
+    max-width: 800px;
+    padding: 30px 30px 15px;
+    box-sizing: border-box;
+    background: #fff;
+    line-height: 1.4em;
+    transform: scale(0.3);
+    transition: 0.5s;
+}
+
+.close_button{
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.modal_wrap input:checked ~ .modal_overlay{
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.5s;
+}
+
+.modal_wrap input:checked ~ .modal_overlay .modal_content{
+    transform: scale(1);
+}
+
+.open_button{
+    top: -20;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 20px;
+    margin: auto;
+    padding: 8px 16px;
+    color: #444;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+    border-radius: 16px;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/
+.navbar a {
+display: block;
+padding: 15px;
+padding-top:30px;
+
+font-weight: bold;
+color: #000;
+text-decoration: none;
+text-shadow: 1px 1px 0 #fff;
+  border-bottom: 5px solid #b0c4de;
+  border-radius: 3px 3px 0 0;
+}
+.navbar a:hover{
+background-color: rgba(0,0,0,0.3);
+}
+
+@media only screen and (min-width: 768px){
+.navbar {
+display:flex;
+}
+}
+
+/* メイン
+---------------------------------------------------- */
+
+
+.main-inner {
+	height: 0px;
+}
+.main-inter h1 {
+}
+
+p.po {
+text-align:center;
+ position: relative;
+ top:0px;
+}
+
+
+
+
+/* フッター
+---------------------------------------------------- */
+.neko {
+      clear:left;
+
+}
+
+.footA h2{
+	  margin:10;
+padding-top:20px;
+      font-size:20px;
+      width:200px;
+      text-align:center;
+    margin-top:0px;
+
+}
+
+.footA ul{
+      fone-size;10px;
+      list-style:none;
+}
+
+.footA a{
+display:block;
+padding:2px;
+color: #808080;
+text-decoration: none;
+      text-align:center;
+
+}
+
+.footA a:hover{
+    background-color:#d3d3d3;
+    width:200px;
+      text-align:center;
+
+}
+
+.copyright {
+color:#999;
+text-align:center;
+margin-bottom:0px;
+padding-top:0;
+
+
+}
+
+
+@media only screen and (min-width:768px){
+    .footA{
+           display:flex;
+}
+    .footA div{
+           flex:1;
+
+}
+.footA div: not(:first-child){
+           margin-left:500px;
+}
+}
+
+/* テーブル
+---------------------------------------------------- */
+
+ 
+/* CSS3 ModalWindow SET
+-------------------------- */
+@-webkit-keyframes modalFadeIn {
+    0% {opacity:0;display:block;}
+    100% {opacity:1;}
+}
+ 
+div#modal div:target {
+    -webkit-animation-name: modalFadeIn; 
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    opacity: 1;
+    display:block;
+}
